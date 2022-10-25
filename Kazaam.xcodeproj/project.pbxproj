@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0CB7E01628F47D7200DE3E98 /* KazaamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7E01528F47D7200DE3E98 /* KazaamApp.swift */; };
-		0CB7E01828F47D7200DE3E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7E01728F47D7200DE3E98 /* ContentView.swift */; };
 		0CB7E01A28F47D7B00DE3E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7E01928F47D7B00DE3E98 /* Assets.xcassets */; };
 		0CB7E01D28F47D7B00DE3E98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7E01C28F47D7B00DE3E98 /* Preview Assets.xcassets */; };
 		0CB7E02428F47F6D00DE3E98 /* Snippet Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7E02328F47F6D00DE3E98 /* Snippet Manager.swift */; };
+		0CB7E02628F76A4A00DE3E98 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7E02528F76A4A00DE3E98 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CB7E01228F47D7200DE3E98 /* Kazaam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kazaam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB7E01528F47D7200DE3E98 /* KazaamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KazaamApp.swift; sourceTree = "<group>"; };
-		0CB7E01728F47D7200DE3E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CB7E01928F47D7B00DE3E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB7E01C28F47D7B00DE3E98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CB7E02328F47F6D00DE3E98 /* Snippet Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Snippet Manager.swift"; sourceTree = "<group>"; };
+		0CB7E02528F76A4A00DE3E98 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				0CB7E01528F47D7200DE3E98 /* KazaamApp.swift */,
+				0CB7E02528F76A4A00DE3E98 /* MainView.swift */,
 				0CB7E02328F47F6D00DE3E98 /* Snippet Manager.swift */,
-				0CB7E01728F47D7200DE3E98 /* ContentView.swift */,
 				0CB7E01928F47D7B00DE3E98 /* Assets.xcassets */,
 				0CB7E01B28F47D7B00DE3E98 /* Preview Content */,
 			);
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB7E01828F47D7200DE3E98 /* ContentView.swift in Sources */,
+				0CB7E02628F76A4A00DE3E98 /* MainView.swift in Sources */,
 				0CB7E01628F47D7200DE3E98 /* KazaamApp.swift in Sources */,
 				0CB7E02428F47F6D00DE3E98 /* Snippet Manager.swift in Sources */,
 			);

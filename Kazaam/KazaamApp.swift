@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct KazaamApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+struct KazaamApp: App
+{
+    var body: some Scene
+    {
+        WindowGroup
+        {
+            MainView()
         }
     }
 }

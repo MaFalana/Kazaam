@@ -8,15 +8,21 @@
 import Foundation
 import AVFoundation
 import Speech
+import SwiftUI
 
 
 class Snippet_Manager: ObservableObject
 {
    // var searchResult: Result
     
+    static let shared = Snippet_Manager()
+    
+    @Published var color = Color.blue
+    
     func grabSnippet() //Method that grabs an audio snippet
     {
         //should transcribe audio
+        color = Color.red
     }
     
     func storeSnippet()
@@ -29,6 +35,7 @@ class Snippet_Manager: ObservableObject
         // create a new recognizer and point it at our audio
         let recognizer = SFSpeechRecognizer()
         let request = SFSpeechURLRecognitionRequest(url: snippet)
+        var x = ""
 
         // start recognition!
         recognizer?.recognitionTask(with: request)
@@ -45,19 +52,22 @@ class Snippet_Manager: ObservableObject
             {
                 // pull out the best transcription...
                 print(result.bestTranscription.formattedString)
-                //return result.bestTranscription.
+                x = result.bestTranscription.formattedString
+               
             }
+            
         }
+        return x
     }
     
-    func search_IDMb() -> Result //Method that searches IMDb with string
-    {
-        let searchParameter = Snippet_to_String(snippet: <#T##URL#>)
-    }
+//    func search_IDMb() -> Result //Method that searches IMDb with string
+//    {
+//        let searchParameter = Snippet_to_String(snippet: <#T##URL#>)
+//    }
     
     func is_Result() -> Bool //Method to check if search result is not a null value
     {
-        
+        return false
     }
     
     func showResults()
