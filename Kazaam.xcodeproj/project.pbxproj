@@ -7,20 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C87318C2907644D00B16273 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C87318B2907644D00B16273 /* History.swift */; };
+		0C87318F2907648B00B16273 /* CustomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C87318E2907648B00B16273 /* CustomRow.swift */; };
+		0C873191290764E800B16273 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C873190290764E800B16273 /* About.swift */; };
+		0C873193290764F200B16273 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C873192290764F200B16273 /* Alerts.swift */; };
+		0C8731952907650800B16273 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8731942907650800B16273 /* Settings.swift */; };
+		0C873197290765AC00B16273 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C873196290765AC00B16273 /* Detail.swift */; };
+		0C873199290765C300B16273 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C873198290765C300B16273 /* Main.swift */; };
+		0C87319B290765D800B16273 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C87319A290765D800B16273 /* ModalView.swift */; };
+		0C87319E2907668700B16273 /* API Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C87319D2907668700B16273 /* API Manager.swift */; };
+		0C8731A02907669500B16273 /* Core Data Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C87319F2907669500B16273 /* Core Data Manager.swift */; };
+		0C8731A2290766A200B16273 /* Snippet Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8731A1290766A200B16273 /* Snippet Manager.swift */; };
+		0C8731A4290766B000B16273 /* Microphone Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8731A3290766B000B16273 /* Microphone Manager.swift */; };
+		0C8731A62907675B00B16273 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8731A52907675B00B16273 /* Media.swift */; };
+		0C8731A82907678500B16273 /* Media+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8731A72907678500B16273 /* Media+CoreDataClass.swift */; };
+		0C8731AA290767C400B16273 /* Media+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8731A9290767C400B16273 /* Media+CoreDataProperties.swift */; };
 		0CB7E01628F47D7200DE3E98 /* KazaamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7E01528F47D7200DE3E98 /* KazaamApp.swift */; };
 		0CB7E01A28F47D7B00DE3E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7E01928F47D7B00DE3E98 /* Assets.xcassets */; };
 		0CB7E01D28F47D7B00DE3E98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7E01C28F47D7B00DE3E98 /* Preview Assets.xcassets */; };
-		0CB7E02428F47F6D00DE3E98 /* Snippet Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7E02328F47F6D00DE3E98 /* Snippet Manager.swift */; };
-		0CB7E02628F76A4A00DE3E98 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7E02528F76A4A00DE3E98 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C87318B2907644D00B16273 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		0C87318E2907648B00B16273 /* CustomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRow.swift; sourceTree = "<group>"; };
+		0C873190290764E800B16273 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		0C873192290764F200B16273 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		0C8731942907650800B16273 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		0C873196290765AC00B16273 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		0C873198290765C300B16273 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		0C87319A290765D800B16273 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		0C87319D2907668700B16273 /* API Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Manager.swift"; sourceTree = "<group>"; };
+		0C87319F2907669500B16273 /* Core Data Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core Data Manager.swift"; sourceTree = "<group>"; };
+		0C8731A1290766A200B16273 /* Snippet Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Snippet Manager.swift"; sourceTree = "<group>"; };
+		0C8731A3290766B000B16273 /* Microphone Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Microphone Manager.swift"; sourceTree = "<group>"; };
+		0C8731A52907675B00B16273 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		0C8731A72907678500B16273 /* Media+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Media+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0C8731A9290767C400B16273 /* Media+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Media+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0CB7E01228F47D7200DE3E98 /* Kazaam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kazaam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB7E01528F47D7200DE3E98 /* KazaamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KazaamApp.swift; sourceTree = "<group>"; };
 		0CB7E01928F47D7B00DE3E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB7E01C28F47D7B00DE3E98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0CB7E02328F47F6D00DE3E98 /* Snippet Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Snippet Manager.swift"; sourceTree = "<group>"; };
-		0CB7E02528F76A4A00DE3E98 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +60,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C8731862907640100B16273 /* Frontend */ = {
+			isa = PBXGroup;
+			children = (
+				0C87318A2907643100B16273 /* Settings */,
+				0C8731892907642600B16273 /* History */,
+				0C873196290765AC00B16273 /* Detail.swift */,
+				0C873198290765C300B16273 /* Main.swift */,
+				0C87319A290765D800B16273 /* ModalView.swift */,
+			);
+			path = Frontend;
+			sourceTree = "<group>";
+		};
+		0C8731872907640E00B16273 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				0C87319C2907666B00B16273 /* Class Managers */,
+				0C8731882907641400B16273 /* Core Data */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		0C8731882907641400B16273 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C8731A52907675B00B16273 /* Media.swift */,
+				0C8731A72907678500B16273 /* Media+CoreDataClass.swift */,
+				0C8731A9290767C400B16273 /* Media+CoreDataProperties.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		0C8731892907642600B16273 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				0C87318B2907644D00B16273 /* History.swift */,
+				0C87318E2907648B00B16273 /* CustomRow.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		0C87318A2907643100B16273 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0C873190290764E800B16273 /* About.swift */,
+				0C873192290764F200B16273 /* Alerts.swift */,
+				0C8731942907650800B16273 /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0C87319C2907666B00B16273 /* Class Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0C87319D2907668700B16273 /* API Manager.swift */,
+				0C87319F2907669500B16273 /* Core Data Manager.swift */,
+				0C8731A1290766A200B16273 /* Snippet Manager.swift */,
+				0C8731A3290766B000B16273 /* Microphone Manager.swift */,
+			);
+			path = "Class Managers";
+			sourceTree = "<group>";
+		};
 		0CB7E00928F47D7200DE3E98 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				0CB7E01528F47D7200DE3E98 /* KazaamApp.swift */,
-				0CB7E02528F76A4A00DE3E98 /* MainView.swift */,
-				0CB7E02328F47F6D00DE3E98 /* Snippet Manager.swift */,
+				0C8731872907640E00B16273 /* Backend */,
+				0C8731862907640100B16273 /* Frontend */,
 				0CB7E01928F47D7B00DE3E98 /* Assets.xcassets */,
 				0CB7E01B28F47D7B00DE3E98 /* Preview Content */,
 			);
@@ -140,9 +227,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB7E02628F76A4A00DE3E98 /* MainView.swift in Sources */,
+				0C8731A4290766B000B16273 /* Microphone Manager.swift in Sources */,
+				0C8731952907650800B16273 /* Settings.swift in Sources */,
+				0C8731A62907675B00B16273 /* Media.swift in Sources */,
+				0C8731A82907678500B16273 /* Media+CoreDataClass.swift in Sources */,
+				0C8731AA290767C400B16273 /* Media+CoreDataProperties.swift in Sources */,
+				0C873197290765AC00B16273 /* Detail.swift in Sources */,
+				0C8731A2290766A200B16273 /* Snippet Manager.swift in Sources */,
+				0C873199290765C300B16273 /* Main.swift in Sources */,
+				0C87318C2907644D00B16273 /* History.swift in Sources */,
+				0C873193290764F200B16273 /* Alerts.swift in Sources */,
+				0C873191290764E800B16273 /* About.swift in Sources */,
+				0C8731A02907669500B16273 /* Core Data Manager.swift in Sources */,
+				0C87319B290765D800B16273 /* ModalView.swift in Sources */,
 				0CB7E01628F47D7200DE3E98 /* KazaamApp.swift in Sources */,
-				0CB7E02428F47F6D00DE3E98 /* Snippet Manager.swift in Sources */,
+				0C87318F2907648B00B16273 /* CustomRow.swift in Sources */,
+				0C87319E2907668700B16273 /* API Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
