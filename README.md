@@ -1,6 +1,6 @@
 # Kazaam
 
-Open source media recigniton sowftware for IOS
+Open source media recigniton software for IOS
 
 ## Description
 
